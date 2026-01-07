@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+.logo h2{
+    font: 45px;
+    font-weight:800;
+} 
+
+.color-orange{
+    color: #FD6E0A;
+}
+.btn {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+/* main style */
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background-image: url(./images/developer.png) , url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+nav{
+    width: 47%;
+    max-width: 1134px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+#banner {
+    margin: 49px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1332;
+    max-height: 676;
+    padding: 163;
+    
+}
+#banner .banner-content{
+    max-width: 585px;
+    
+}
+#banner .banner-content h2 {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1 {
+    color: black;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#banner .banner-content p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+
+}
+#about{
+    padding:130px 230px 0 230px;
+
+}
+#about .about-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+#about .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    color: #757575;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+    
+}

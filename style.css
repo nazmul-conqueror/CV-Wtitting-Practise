@@ -144,7 +144,6 @@ nav .menu a{
     font-size: 35px;
     font-weight:600;
     margin-bottom: 30px;
-    margin: 0 auto;
 
 }
 .skills-heading p{
@@ -154,16 +153,20 @@ nav .menu a{
     font-size: 18px;
     line-height: 30px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 #skills .skills-container .skills-box{
+    border-radius: 1px solid black;
     display: flex;
     gap: 24px;
+    height: 370px;
    
 }
 .skills-box .skills-card{
     padding: 30px;
-    border: 1px solid red;
     max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000025;
+    
 
 }
 .skills-card img{
